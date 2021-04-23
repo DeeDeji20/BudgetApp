@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7cbbed23cb.js" crossorigin="anonymous"></script>
+    <title>BudgetApp</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="head">BUDGET APP</h1>
+    <div class="budgetContainer">
+        <div class="form-container">
+            <form action="">
+                <h1>Budgets</h1>
+                <fieldset>
+                    
+                    <div>
+                        <h3>Title</h3>
+                        <p class="title"></p>
+                        <h3>Total</h3>
+                        <p class="total">0</p>
+                        <h3>ExpenseTotal</h3>
+                        <p class="expense-total">0</p>
+                        <h3>Balance</h3>
+                        <p class="balance">0</p>
+                       
+                    </div>
+                    <div class="plus">
+                        <div>
+                            <label for="budget-amount">Enter your Budget</label>
+                            <input type="text" id="budget-title" class="expense">    
+                            <input type="number" id="budget-amount" class="expense">    
+                        </div>
+         
+                    <i class=" fas fa-plus add"></i>
+                    </div>
+                   
+                </fieldset>
+            </form>
+
+           <div class="expense-input">
+               <div>
+                <input type="text" placeholder="Expenses" class="expense" id="expense">
+                <input type="text" placeholder="Amount" class="expense" id="amount">
+               </div>
+               <div>
+               <i class="fas fa-plus add-input"></i>
+               </div>
+            </div>
+           <ul class="add-inputs">
+               <!-- <div>
+                <p id="expense-input">Rent</p>
+                <p id="amount-input">200,000</p>
+               </div> -->
+               <!-- <div class="edit">
+                   <button class="edit-btn">Edit</button>
+                   <i class="fas fa-times times"></i>
+               </div>
+               -->
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
